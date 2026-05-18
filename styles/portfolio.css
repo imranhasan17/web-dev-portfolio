@@ -1,22 +1,33 @@
-
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* Shared Styles */
-.text-primary{
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-primary {
     color: #FD6E0A;
 }
-.dark-1{
+
+.dark-1 {
     color: #181818;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
+
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
     background-color: #FD6E0A;
     font-size: 20px;
     font-weight: bold;
@@ -25,8 +36,19 @@
     border-radius: 5px;
     padding: 18px 35px;
 }
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 30px;
+}
+
 /* Header */
-.header{
+.header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -34,52 +56,88 @@
 
 
 /* Nav Styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
-   
+
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: 20px;
 }
 
 /* Banner Styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 800;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.banner-profile-pic{
+
+.banner-profile-pic {
     width: 580px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+    line-height: 30px;
+}
+.item-description{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
 }
