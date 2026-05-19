@@ -39,6 +39,7 @@
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
+    cursor: pointer;
 }
 
 .section-title {
@@ -118,6 +119,9 @@ nav li a {
 .banner-profile-pic {
     width: 580px;
 }
+.down-cv{
+    margin-right: 30px;
+}
 
 /* main styles */
 main {
@@ -177,14 +181,16 @@ main section {
     display: flex;
     gap: 24px;
 }
-.resume hr{
+
+.resume hr {
     margin: 30px 0;
 }
-.experience-title{
+
+.experience-title {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
-   
+
 }
 
 .experience-sub-title {
@@ -199,6 +205,34 @@ main section {
     font-size: 16px;
     line-height: 28px;
 }
-.resume-download-cv{
+
+.resume-download-cv {
     margin-top: 50px;
+}
+
+/* footer section styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
