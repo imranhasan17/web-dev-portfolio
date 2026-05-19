@@ -122,6 +122,11 @@ nav li a {
 .down-cv{
     margin-right: 30px;
 }
+.contact{
+    background-color: rgb(218, 220, 218);
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+}
 
 /* main styles */
 main {
